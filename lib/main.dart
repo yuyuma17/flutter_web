@@ -9,6 +9,14 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      title: 'Flutter Web',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Container(
+        color: Colors.blue,
+      ),
+    );
   }
 }
